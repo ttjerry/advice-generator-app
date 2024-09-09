@@ -61,9 +61,9 @@ function App() {
 function PreLoader() {
   return (
     <div className="flex gap-3">
-      <span className="w-2 h-1 rounded-full bg-[#53FFAB] p-2" style={{animationName:'moveUpDown', animationDuration: '2s', animationIterationCount: 'infinite'}}></span>
-      <span className="w-2 h-1 rounded-full bg-[#53FFAB] p-2"  style={{animationName:'moveUpDown', animationDuration: '2s', animationIterationCount: 'infinite', animationDelay:'0.1s'}}></span>
-      <span className="w-2 h-1 rounded-full bg-[#53FFAB] p-2"  style={{animationName:'moveUpDown', animationDuration: '2s', animationIterationCount: 'infinite', animationDelay: '0.2s'}}></span>
+      <span className="w-2 h-1 rounded-full bg-[#53FFAB] p-2" style={{animationName:'moveUpDown', animationDuration: '1.5s', animationIterationCount: 'infinite'}}></span>
+      <span className="w-2 h-1 rounded-full bg-[#53FFAB] p-2"  style={{animationName:'moveUpDown', animationDuration: '1.5s', animationIterationCount: 'infinite', animationDelay:'0.1s'}}></span>
+      <span className="w-2 h-1 rounded-full bg-[#53FFAB] p-2"  style={{animationName:'moveUpDown', animationDuration: '1.5s', animationIterationCount: 'infinite', animationDelay: '0.2s'}}></span>
     </div>
   );
 }
