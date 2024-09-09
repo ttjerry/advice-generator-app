@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes moveUpDown {
+    0%{
+        position: relative;
+        top: 0;
+        transition: all ease-in-out;
+    }
+    25%{
+        position: relative;
+        top: 5px;
+        transition: all ease-in-out;
+    }
+    50%{
+        position: relative;
+        top: 10px;
+        transition: all ease-in;
+    }
+    75%{
+        position: relative;
+        top: 15px;
+        transition: all ease-in-out;
+    }
+    100%{
+        position: relative;
+        top: 20px;
+        transition: all ease-in-out;
+    }
+}
